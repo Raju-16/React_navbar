@@ -1,0 +1,42 @@
+.heading{
+  cursor: pointer;
+}
+.newbar{
+  height:10vh;
+  background-color:black;
+  padding: 0px 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  color: white;
+}
+
+.links>ul{
+  list-style: none;
+  display: flex;
+}
+.links>ul>li{
+ margin-right:5vh;
+}
+.links>ul>li>a{
+  text-decoration: none;
+  font-size:25px;
+  color: white;
+}
+
+button{
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  font-size:25px;
+  color:rgb(1,21,77);
+  background-color:rgb(23, 55, 238);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8%;
+  cursor: pointer;
+}
